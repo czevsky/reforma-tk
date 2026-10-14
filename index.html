@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reforma Trybunału Konstytucyjnego</title>
+<style>
+:root {
+  --navy: #142744;
+  --red: #c73543;
+  --bg: #f4f6f9;
+  --text: #263348;
+  --muted: #657287;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.65;
+}
+.flag { height: 7px; background: linear-gradient(white 50%, #d52b3d 50%); }
+header { background: var(--navy); color: white; }
+nav, .wrap { width: min(1050px, 90%); margin: auto; }
+nav { padding: 22px 0; font-weight: bold; letter-spacing: 1px; }
+.hero { padding: 65px 0 75px; }
+.label {
+  display: inline-block;
+  border: 1px solid #8492a8;
+  border-radius: 30px;
+  padding: 5px 12px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+h1 {
+  font-size: clamp(36px, 6vw, 64px);
+  line-height: 1.08;
+  letter-spacing: -2px;
+  max-width: 780px;
+  margin: 24px 0;
+}
+.hero p { max-width: 680px; font-size: 19px; color: #dce4ef; }
+.button {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 12px 19px;
+  border-radius: 7px;
+  background: white;
+  color: var(--navy);
+  font-weight: bold;
+  text-decoration: none;
+}
+main { padding: 55px 0 70px; }
+h2 { color: var(--navy); font-size: 32px; line-height: 1.2; }
+.intro { max-width: 700px; color: var(--muted); }
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin: 30px 0 60px;
+}
+.card {
+  background: white;
+  border: 1px solid #e1e6ed;
+  border-radius: 13px;
+  padding: 25px;
+  box-shadow: 0 7px 22px #1427440a;
+}
+.number { color: var(--red); font-size: 54px; font-weight: 800; line-height: 1; }
+h3 { color: var(--navy); margin-bottom: 8px; }
+.card p, .step p { color: var(--muted); margin-bottom: 0; }
+.steps { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin: 28px 0; }
+.step { background: white; padding: 25px; border-radius: 12px; border: 1px solid #e1e6ed; }
+.step span { color: var(--red); font-weight: bold; }
+.principle {
+  background: white;
+  border-left: 5px solid var(--red);
+  border-radius: 8px;
+  padding: 22px;
+  margin: 30px 0 55px;
+}
+.notice {
+  background: #e9eef5;
+  border: 1px solid #d7e0eb;
+  border-radius: 10px;
+  padding: 22px;
+  color: #4e5d70;
+  font-size: 14px;
+}
+.notice a { color: var(--navy); }
+footer { background: #0d1b30; color: #d0d8e4; padding: 25px 0; font-size: 13px; }
+@media(max-width:700px) {
+  .cards, .steps { grid-template-columns: 1fr; }
+  .hero { padding: 45px 0 55px; }
+  h2 { font-size: 27px; }
+}
+</style>
+</head>
+<body>
+<div class="flag"></div>
+
+<header>
+  <nav>PROPOZYCJA REFORMY TK</nav>
+  <div class="wrap hero">
+    <span class="label">Propozycja ustrojowa</span>
+    <h1>Trybunał Konstytucyjny oparty na równowadze</h1>
+    <p>
+      Propozycja zmiany sposobu wyłaniania sędziów:
+      15 osób, trzy organy wskazujące i jasna zasada
+      składania ślubowania.
+    </p>
+    <a class="button" href="#model">Poznaj proponowane zasady ↓</a>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="model">
+    <h2>15 sędziów. Trzy źródła wskazania.</h2>
+    <p class="intro">
+      W proponowanym modelu skład Trybunału byłby dzielony
+      po równo pomiędzy trzy organy państwa.
+    </p>
+
+    <div class="cards">
+      <article class="card">
+        <div class="number">5</div>
+        <h3>Sejm</h3>
+        <p>Wskazuje pięciu sędziów Trybunału Konstytucyjnego.</p>
+      </article>
+      <article class="card">
+        <div class="number">5</div>
+        <h3>Senat</h3>
+        <p>Wskazuje pięciu sędziów Trybunału Konstytucyjnego.</p>
+      </article>
+      <article class="card">
+        <div class="number">5</div>
+        <h3>Prezydent RP</h3>
+        <p>Wskazuje pięciu sędziów Trybunału Konstytucyjnego.</p>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <h2>Jak działałaby procedura?</h2>
+    <p class="intro">
+      Dwie podstawowe zasady proponowanego modelu.
+    </p>
+
+    <div class="steps">
+      <article class="step">
+        <span>01 / WYBÓR LUB WSKAZANIE</span>
+        <h3>Trzy organy, po pięciu sędziów</h3>
+        <p>
+          Sejm, Senat i Prezydent RP wskazują po pięciu
+          kandydatów na sędziów TK, zgodnie z procedurą
+          określoną w odpowiednich przepisach.
+        </p>
+      </article>
+      <article class="step">
+        <span>02 / ŚLUBOWANIE</span>
+        <h3>Przed organem wskazującym</h3>
+        <p>
+          Sędziowie składają ślubowanie przed organem,
+          który ich wybrał lub wskazał: odpowiednio przed
+          Sejmem, Senatem albo Prezydentem RP.
+        </p>
+      </article>
+    </div>
+
+    <div class="principle">
+      <strong>Główna idea</strong><br>
+      Rozłożenie procesu wyłaniania sędziów pomiędzy trzy
+      organy państwa, zamiast powierzenia całego wyboru
+      jednemu organowi.
+    </div>
+  </section>
+
+  <section>
+    <h2>Propozycja reformy — nie opis obecnego prawa</h2>
+    <div class="notice">
+      Obecnie art. 194 ust. 1 Konstytucji RP stanowi, że
+      Trybunał Konstytucyjny składa się z 15 sędziów
+      wybieranych indywidualnie przez Sejm na dziewięć lat.
+      Proponowany podział 5–5–5 oraz zmiana zasad ślubowania
+      wymagałyby odpowiednich zmian prawnych i analizy
+      zgodności z Konstytucją.
+
+      <p>
+        Źródło:
+        <a href="https://www.sejm.gov.pl/prawo/konst/polski/8.htm"
+           target="_blank" rel="noopener noreferrer">
+          Konstytucja RP — art. 194
+        </a>
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    Propozycja reformy Trybunału Konstytucyjnego
+  </div>
+</footer>
+</body>
+</html>
